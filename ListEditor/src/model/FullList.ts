@@ -53,4 +53,3 @@ export default class FullList implements List {
     }
 
 }
-

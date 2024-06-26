@@ -18,7 +18,6 @@ export default class ListItem implements Item {
 
     set id(id:string){
         this._id = id
-        return
     }
 
     get item(): string{
@@ -27,7 +26,6 @@ export default class ListItem implements Item {
 
     set item(item:string){
         this._item = item
-        return
     }
 
     get checked(): boolean{
@@ -36,6 +34,6 @@ export default class ListItem implements Item {
 
     set checked(checked:boolean){
         this._checked = checked
-        return
     }
 }
+
